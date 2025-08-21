@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso de Tailwind</title>
-    <link rel="stylesheet" href="./output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <h2 class="text-sm text-gray-500">olá, Mundo!</h2>
@@ -22,9 +22,32 @@
         <span>2</span>
         <span>3</span>
     </div>
-    <div class="m-5 pl-2 border-4 rounded-full border-yellow-400">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, rem, voluptatem laudantium deleniti veritatis, a ipsam obcaecati tempore illo quam ullam atque aspernatur dolorem qui odit est ex consequatur doloremque!
+    <div class="m-5 pl-2 border-2 rounded-2xl border-yellow-400">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, rem, voluptatem laudantium deleniti 
+        <br>
+
+        <button class="bg-blue-400 px-4 py-2 ring-sky-200">save</button>
     </div>
     
+    <div class=" w-1/2 m-5 p-4 bg-gradient-to-tr from-blue-800 to-blue-400">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deserunt veritatis inventore accu
+    </div>
+    
+    <div class="flex space-x-4 justify-center items-center bg-gray-500 h-32">
+        <div class="w-24 h-24 p-4 text-white bg-gradient-to-r from-green-800 to-green-950"></div>
+        <div class="w-24 h-24 p-4 text-white bg-gradient-to-r from-green-800 to-green-950"></div>
+        <div class="w-24 h-24 p-4 text-white bg-gradient-to-r from-green-800 to-green-950"></div>
+    </div>
+
+    <br>
+
+    <div class="grid grid-cols-3 gap-4 bg-gray-500 h-32">
+        <div class=" p-4 col-span-3 text-white bg-gradient-to-r from-green-800 to-green-950"></div>
+        <div class=" p-4 text-white bg-gradient-to-r from-green-800 to-green-950"></div>
+        <div class=" p-4 text-white bg-gradient-to-r from-green-800 to-green-950"></div>
+        <div class=" p-4 text-white bg-gradient-to-r from-green-800 to-green-950"></div>
+        <div class=" col-span-4 p-4 text-white bg-gradient-to-r from-green-800 to-green-950"></div>
+        <div class=" p-4 text-white bg-gradient-to-r from-green-800 to-green-950"></div>
+    </div>
 </body>
 </html>
